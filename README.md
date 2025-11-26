@@ -45,7 +45,7 @@ with total defect mass:
 ```
 
 For $\lambda_\varepsilon \sim 10\ \mathrm{kpc}$, this removes
-$\sim 10^{11} M_\odot$ from the inner halo—naturally converting an NFW cusp into a core while preserving large-scale $\Lambda\$CDM phenomenology.
+$\sim 10^{11} M_\odot$ from the inner halo—naturally converting an NFW cusp into a core while preserving large-scale ΛCDM phenomenology.
 
 ---
 
