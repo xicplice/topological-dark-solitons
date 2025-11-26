@@ -67,7 +67,7 @@ The total defect mass,
 is negative for the parameter ranges of interest and can be shown to
 scale as
 \[
-\Delta M = -2\frac{c^4\varepsilon_\infty\lambda_\varepsilon}{G}.
+\Delta M = -1\frac{c^4\varepsilon_\infty\lambda_\varepsilon}{G}.
 \]
 
 ## 4. Core regularisation
@@ -113,3 +113,4 @@ The code in this repository provides ready-to-use tools to compute:
 - density profiles (regularised and unregularised),
 - cumulative masses and circular velocities,
 - basic sanity checks on the numerical behaviour of the profiles.
+
