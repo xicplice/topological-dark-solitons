@@ -1,0 +1,22 @@
+{
+    "title": "Topological Dark Solitons and Phase-Locked Screening in Two-Sector Gauge--Scalar Systems",
+    "upload_type": "publication",
+    "publication_type": "article",
+    "description": "Standard open-science package including LaTeX source, Python code, and documentation for a Helmholtz–Chern–Simons model of topological dark solitons, with screening profiles and phase-locking energetics.",
+    "creators": [
+      {
+        "name": "Xicplice",
+        "affiliation": "Independent Researcher"
+      }
+    ],
+    "license": "cc-by-4.0",
+    "keywords": [
+      "dark matter",
+      "topological solitons",
+      "Chern-Simons",
+      "core-cusp problem",
+      "galaxy dynamics"
+    ],
+    "notes": "Use CC-BY-4.0 for the paper on Zenodo and Apache-2.0 for the code on GitHub."
+  }
+  

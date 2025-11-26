@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{bm}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{cite}
+
+\title{Topological Dark Solitons and Phase-Locked Screening\\
+in Two-Sector Gauge--Scalar Systems}
+
+\author{%
+  Xicplice\\
+  \small Independent Researcher
+}
+
+\date{November 2025}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We study a dark sector with two ultra-weakly coupled $U(1)$ gauge
+fields linked by a mutual Chern--Simons term on a topologically wound
+background.  The interaction generates an effective scalar mode
+$\varepsilon(\mathbf{x})$ which obeys a screened Helmholtz equation
+\begin{equation}
+\biggl(\nabla^2 - \frac{1}{\lambda_\varepsilon^2}\biggr)
+\varepsilon(\mathbf{x})
+= -\frac{8\pi G}{c^4}\,\rho_b(\mathbf{x}),
+\end{equation}
+with screening length $\lambda_\varepsilon = R / \sqrt{n_1 n_2}$.
+For spherically symmetric sources we show that the exact solution
+\begin{equation}
+\varepsilon(r) = \varepsilon_\infty \Bigl(1 - e^{-r/\lambda_\varepsilon}\Bigr)
+\end{equation}
+corresponds to a negative-mass soliton whose implied baryonic density
+profile $\rho_b(r)$ removes mass from the inner halo of a galaxy.
+
+We demonstrate how the central $1/r$ singularity in $\rho_b(r)$ can be
+regularised by introducing a finite constant-density core without
+spoiling the exterior profile, and compute the resulting defect mass
+$\Delta M$.  For $\lambda_\varepsilon$ of order galactic scales this
+removes $\mathcal{O}(10^{11}M_\odot)$ from the inner halo, naturally
+converting an NFW cusp into a core without altering large-scale
+$\Lambda$CDM phenomenology.
+
+The same topological integers $n_1$ and $n_2$ control a mutual
+Chern--Simons locking term and generate a Josephson-like potential
+\begin{equation}
+E(\alpha) = E_0 \left[1 - \cos\!\bigl(n_1 n_2 \alpha\bigr)\right],
+\end{equation}
+whose small-angle stiffness scales as $(n_1 n_2)^2$.  We provide
+analytic expressions and numerical recipes suitable for implementation
+in galactic structure and core--cusp studies, with open-source code
+packaged in this repository.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+% TODO: Write a proper introduction motivating the core--cusp problem,
+% dark-sector modifications, and the role of topological defects.
+
+\section{Model and Effective Helmholtz Equation}
+% Derive the scalar sector from the two $U(1)$ gauge fields and
+% mutual Chern--Simons coupling. Show how the Helmholtz equation
+% emerges, define $\lambda_\varepsilon$, and specify the relevant
+% parameter ranges.
+
+\section{Spherical Soliton Solution}
+\subsection{Analytic profile}
+% Derive the analytic solution for $\varepsilon(r)$ and the density
+% profile $\rho_b(r)$.
+
+\subsection{Finite-core regularisation}
+% Introduce the core radius $r_0$ and show how to regularise the
+% $1/r$ singularity.
+
+\section{Topological Phase Locking}
+% Present the Josephson-like energy
+%   E(\alpha) = E_0 [1 - \cos(n_1 n_2 \alpha)]
+% and the stiffness scaling $\propto (n_1 n_2)^2$.
+
+\section{Numerical Methods and Stability}
+% Summarise the numerical implementation. Cross-reference
+% docs/numerics.md and src/helmholtz_solver.py.
+
+\section{Applications to the Core--Cusp Problem}
+% Illustrate with Milky Way-like parameters and halo models.
+
+\section{Discussion and Outlook}
+% Wrap up and describe possible extensions.
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}

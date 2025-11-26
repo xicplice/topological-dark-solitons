@@ -1,0 +1,23 @@
+
+---
+
+### `CITATION.cff`
+
+(Kept basically as you uploaded, with a minimal generic author entry.)
+
+```yaml
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Topological Dark Solitons and Phase-Locked Screening in Two-Sector Gauge--Scalar Systems"
+authors:
+  - family-names: "Xicplice"
+    given-names: ""
+keywords:
+  - dark matter
+  - solitons
+  - topological field theory
+  - Chern-Simons
+  - core-cusp problem
+license: "Apache-2.0"
+version: "0.1.0"
+date-released: "2025-11-26"
