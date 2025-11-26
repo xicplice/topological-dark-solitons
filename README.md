@@ -11,7 +11,7 @@ by **Xicplice**.
 
 ## Overview
 
-We study a dark-sector model with two ultra-weakly coupled $\(U(1)\$ gauge fields linked by a mutual Chern–Simons term.  
+We study a dark-sector model with two ultra-weakly coupled $\U(1)\$ gauge fields linked by a mutual Chern–Simons term.  
 On a topologically wound background this interaction generates a scalar mode $\varepsilon(\mathbf{x})\$ obeying a screened Helmholtz equation:
 
 ```math
