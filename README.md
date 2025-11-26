@@ -41,7 +41,7 @@ induces a soliton-like baryonic density profile:
 with total defect mass:
 
 ```math
-\Delta M = -2\,\frac{c^4\varepsilon_\infty\lambda_\varepsilon}{G}.
+\Delta M = -1\,\frac{c^4\varepsilon_\infty\lambda_\varepsilon}{G}.
 ```
 
 For $\lambda_\varepsilon \sim 10\ \mathrm{kpc}$, this removes
