@@ -51,20 +51,29 @@ $\sim 10^{11} M_\odot$ from the inner halo—naturally converting an NFW cusp in
 
 ## Scalar Field Profile
 
-![Scalar profiles](plots/epsilon_profile.png)
+
 
 ## Density Profiles
 
-![Density profiles](plots/density_profiles.png)
+
 
 ## Cumulative Mass
 
-![Mass profile](plots/mass_profile.png)
+
 
 ## Rotation Curve
 
-![Rotation curve](plots/rotation_curve.png)
 
+<table>
+<tr>
+<td><img src="plots/epsilon_profile.png" width="350"></td>
+<td><img src="plots/density_profiles.png" width="350"></td>
+</tr>
+<tr>
+<td><img src="plots/mass_profile.png" width="350"></td>
+<td><img src="plots/rotation_curve.png" width="350"></td>
+</tr>
+</table>
 
 ---
 
