@@ -44,8 +44,27 @@ with total defect mass:
 \Delta M = -2\,\frac{c^4\varepsilon_\infty\lambda_\varepsilon}{G}.
 ```
 
-For \(\lambda_\varepsilon \sim 10\ \mathrm{kpc}\), this removes  
-\(\sim 10^{11} M_\odot\) from the inner halo—naturally converting an NFW cusp into a core while preserving large-scale \(\Lambda\)CDM phenomenology.
+For $\lambda_\varepsilon \sim 10\ \mathrm{kpc}$, this removes
+$\sim 10^{11} M_\odot$ from the inner halo—naturally converting an NFW cusp into a core while preserving large-scale $\Lambda$CDM phenomenology.
+
+---
+
+## Scalar Field Profile
+
+![ε(r)](plots/epsilon_profile.png)
+
+## Density Profiles
+
+![Density profiles](plots/density_profiles.png)
+
+## Cumulative Mass
+
+![Mass profile](plots/mass_profile.png)
+
+## Rotation Curve
+
+![Rotation curve](plots/rotation_curve.png)
+
 
 ---
 
@@ -59,7 +78,7 @@ For \(\lambda_\varepsilon \sim 10\ \mathrm{kpc}\), this removes
 - `src/locking_energy.py` — topological phase-locking (Josephson-like) sector  
 - `src/stability_tests.py` — regression and consistency tests  
 - `examples/milky_way_profile.py` — Milky Way–like soliton demonstration  
-- `examples/parameter_scan.py` — parameter scan across \(\lambda_\varepsilon\) and \(\varepsilon_\infty\)
+- `examples/parameter_scan.py` — parameter scan across $\lambda_\varepsilon\$ and $\varepsilon_\infty\$
 
 ---
 
@@ -99,13 +118,13 @@ This prints:
 - soliton parameters  
 - example scalar field values  
 - regularised density values  
-- approximate defect mass \(\Delta M\)
+- approximate defect mass $\Delta M\$
 
 ---
 
 ## Example 2: Parameter grid scanning
 
-Explore how the defect mass scales with \(\lambda_\varepsilon\) and \(\varepsilon_\infty\):
+Explore how the defect mass scales with $\lambda_\varepsilon\$ and $\varepsilon_\infty\$:
 
 ```bash
 python -m examples.parameter_scan \
@@ -135,7 +154,7 @@ python -m src.stability_tests
 
 This performs:
 
-- finiteness and monotonicity checks of \(\rho(r)\)  
+- finiteness and monotonicity checks of $\rho(r)\$  
 - negative-defect-mass verification  
 - rotation-curve smoothness checks  
 
