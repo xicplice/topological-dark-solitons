@@ -11,8 +11,8 @@ by **Xicplice**.
 
 ## Overview
 
-We study a dark-sector model with two ultra-weakly coupled \(U(1)\) gauge fields linked by a mutual Chern–Simons term.  
-On a topologically wound background this interaction generates a scalar mode \(\varepsilon(\mathbf{x})\) obeying a screened Helmholtz equation:
+We study a dark-sector model with two ultra-weakly coupled $\(U(1)\$ gauge fields linked by a mutual Chern–Simons term.  
+On a topologically wound background this interaction generates a scalar mode $\varepsilon(\mathbf{x})\$ obeying a screened Helmholtz equation:
 
 ```math
 \left(\nabla^2 - \frac{1}{\lambda_\varepsilon^2}\right)\varepsilon
@@ -45,13 +45,13 @@ with total defect mass:
 ```
 
 For $\lambda_\varepsilon \sim 10\ \mathrm{kpc}$, this removes
-$\sim 10^{11} M_\odot$ from the inner halo—naturally converting an NFW cusp into a core while preserving large-scale $\Lambda$CDM phenomenology.
+$\sim 10^{11} M_\odot$ from the inner halo—naturally converting an NFW cusp into a core while preserving large-scale $\Lambda$ CDM phenomenology.
 
 ---
 
 ## Scalar Field Profile
 
-![ε(r)](plots/epsilon_profile.png)
+![Scalar profiles](plots/epsilon_profile.png)
 
 ## Density Profiles
 
