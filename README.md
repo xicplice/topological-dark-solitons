@@ -185,38 +185,29 @@ The resulting profile converts the steep central cusp predicted by standard cold
 This approach provides an analytically controlled and numerically stable explanation for the long-standing core–cusp problem without modifying large-scale cosmology or invoking strong baryonic feedback.
 The soliton profile is fully analytic, topologically protected, and can be incorporated directly into galactic models and simulations.
 
-What the Model Provides
+### What the Model Provides
 
-A screened Helmholtz equation describing the scalar mode 
-**ε(r)** sourced by the dark soliton.
+- A screened Helmholtz equation describing the scalar mode **ε(r)** sourced by the dark soliton.
+- Closed-form expressions for the soliton-induced density profile, its asymptotic vacuum density, and the total mass deficit.
+- A finite-core regularisation that removes the central **1/r** singularity while preserving the correct exterior behaviour.
+- Analytic rotation curves and cumulative mass profiles derived directly from the soliton density.
+- A consistent and stable framework suitable for astrophysical modelling, parameter scans, and numerical exploration.
+  
+### Capabilities of This Repository
 
-Closed-form expressions for the soliton-induced density profile, its asymptotic vacuum density, and the total mass deficit.
+- Compute the soliton’s scalar field, density profile, and defect mass.
+- Generate cored dark-matter halo profiles that smoothly replace the central NFW cusp.
+- Produce rotation curves and mass-distribution plots for comparison with observational data.
+- Run parameter scans over the screening length and soliton amplitude.
+- Perform sanity and stability checks on the resulting density and velocity profiles.
+- Integrate the model into larger simulations or theoretical studies with minimal overhead.
 
-A finite-core regularisation that removes the central 
-**1/r** singularity while preserving the correct exterior behaviour.
-
-Analytic rotation curves and cumulative mass profiles derived directly from the soliton density.
-
-A consistent and stable framework suitable for astrophysical modelling, parameter scans, and numerical exploration.
-
-Capabilities of This Repository
-
-Compute the soliton’s scalar field, density profile, and defect mass.
-
-Generate cored dark-matter halo profiles that smoothly replace the central NFW cusp.
-
-Produce rotation curves and mass-distribution plots for comparison with observational data.
-
-Run parameter scans over the screening length and soliton amplitude.
-
-Perform sanity and stability checks on the resulting density and velocity profiles.
-
-Integrate the model into larger simulations or theoretical studies with minimal overhead.
 
 ## Summary
 
-#### Topological dark solitons offer a simple, stable, and physically consistent mechanism for producing cored galactic density profiles within the standard cosmological framework.
-#### This repository provides the analytic tools, numerical routines, and examples required to explore these structures and apply them in astrophysical contexts.
+#### *Topological dark solitons offer a simple, stable, and physically consistent mechanism for producing cored galactic density profiles within the standard cosmological framework.*
+#### *This repository provides the analytic tools, numerical routines, and examples required to explore these structures and apply them in astrophysical contexts.*
+
 ---
 
 ## Citation
