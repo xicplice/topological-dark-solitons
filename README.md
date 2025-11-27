@@ -177,6 +177,83 @@ Overall status: PASS
 ```
 
 ---
+# What Is This Project About? (Simple Explanation)
+
+Galaxies in our universe don’t rotate the way normal physics predicts — especially near their centers.
+Astronomers see flat, low-density “cores”, but most computer models predict sharp, dense “cusps.”
+This disagreement is known as the core–cusp problem, and it’s one of the biggest puzzles in astrophysics.
+
+This project explores a new idea:
+
+# Galaxies may contain large, smooth dark-sector structures called
+Topological Dark Solitons.
+
+These solitons act like a stable “bubble” in the dark matter field that naturally hollows out the center of a galaxy.
+Instead of adding extra matter, the soliton gently removes a small amount of gravitational mass near the galactic center, creating the kind of flat density core astronomers actually observe.
+
+# Why Is This Interesting?
+✔ Provides a natural explanation for galaxy cores
+
+No explosions, no exotic modifications of gravity, no fine-tuning — just a smooth, stable dark-sector structure.
+
+✔ Works with standard ΛCDM cosmology
+
+It doesn’t break large-scale physics or affect how the universe evolves.
+
+✔ Fully analytic and stable
+
+The model provides exact mathematical expressions, so you don’t need huge simulations to test it.
+
+✔ Predicts realistic rotation curves
+
+The soliton softens the inner gravitational pull, matching what telescopes see.
+
+✔ Easy to plug into simulations
+
+The code lets you add soliton cores to dark-matter halos in only a few lines.
+
+# What This Repository Contains
+
+This repo provides:
+
+A simple analytic model of the soliton
+
+Tools to compute:
+
+the soliton’s density profile
+
+mass deficit
+
+rotation curves
+
+cumulative mass profiles
+
+A finite-core regularization so the profile stays physical
+
+Ready-to-run examples:
+
+Milky Way–like profiles
+
+parameter scans
+
+stability tests
+
+All formulas implemented in clean, well-documented Python code
+
+You can use this project to:
+
+Explore how solitons change galactic centers
+
+Generate realistic cored dark-matter halos
+
+Visualize density, mass, and velocity curves
+
+Integrate into your own astrophysical simulations or research projects
+
+# In One Sentence
+
+This project shows how a stable dark-sector soliton can smooth out the centers of galaxies — solving the core–cusp problem in a simple, elegant, and physically consistent way.
+---
 
 # Citation
 
