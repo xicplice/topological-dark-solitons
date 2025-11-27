@@ -16,7 +16,7 @@ On a topologically wound background this interaction generates a scalar mode $\v
 
 ```math
 \left(\nabla^2 - \frac{1}{\lambda_\varepsilon^2}\right)\varepsilon
-= -\frac{8\pi G}{c^4}\rho_b(\mathbf{x})
+= -\frac{8\pi G}{c^2}\rho_b(\mathbf{x})
 ```
 
 with screening length:
@@ -34,14 +34,14 @@ The exact spherical solution:
 induces a soliton-like baryonic density profile:
 
 ```math
-\rho_b(r) = \frac{c^4\varepsilon_\infty}{8\pi G\lambda_\varepsilon^2}
+\rho_b(r) = \frac{c^2\varepsilon_\infty}{8\pi G\lambda_\varepsilon^2}
 \left(1 - \frac{2\lambda_\varepsilon}{r}e^{-r/\lambda_\varepsilon}\right),
 ```
 
 with total defect mass:
 
 ```math
-\Delta M = -1\,\frac{c^4\varepsilon_\infty\lambda_\varepsilon}{G}.
+\Delta M = -1\,\frac{c^2\varepsilon_\infty\lambda_\varepsilon}{G}.
 ```
 
 For $\lambda_\varepsilon \sim 10\ \mathrm{kpc}$, this removes
