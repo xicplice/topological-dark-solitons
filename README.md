@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17727021.svg)](https://doi.org/10.5281/zenodo.17727021)
+[![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+
 # Topological Dark Solitons and the Core–Cusp Problem
 
 This repository contains the theory, code, and data supporting:
