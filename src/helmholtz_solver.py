@@ -3,7 +3,7 @@ Radial Helmholtz solver and soliton utilities.
 
 Implements the scalar sector
 
-    (∇² - λ^{-2}) ε(r) = - (8πG / c⁴) ρ_b(r)
+    (∇² - λ^{-2}) ε(r) = - (8πG / c²) ρ_b(r)
 
 with both the exact analytic profile and a finite-core regularisation.
 """
@@ -81,7 +81,7 @@ class SolitonParameters:
         ρ∞ = c⁴ ε∞ / (8π G λ²).
         """
         lam = self.lambda_eps
-        return (self.c ** 4 * self.eps_inf) / (8.0 * np.pi * self.G * lam**2)
+        return (self.c ** 2 * self.eps_inf) / (8.0 * np.pi * self.G * lam**2)
 
 
 def epsilon_analytic(r: np.ndarray, p: SolitonParameters) -> np.ndarray:
@@ -95,7 +95,7 @@ def rho_analytic(r: np.ndarray, p: SolitonParameters) -> np.ndarray:
     r"""
     Exact density profile implied by the analytic ε(r):
 
-        ρ_b(r) = (c⁴ ε∞ / (8π G λ²)) [ 1 - (2λ / r) exp(-r/λ) ].
+        ρ_b(r) = (c² ε∞ / (8π G λ²)) [ 1 - (2λ / r) exp(-r/λ) ].
 
     The expression inherits a 1/r singularity at r → 0. For numerical
     purposes we avoid a literal division by zero and instead treat r=0
@@ -104,7 +104,7 @@ def rho_analytic(r: np.ndarray, p: SolitonParameters) -> np.ndarray:
     """
     r = np.asarray(r, dtype=float)
     lam = p.lambda_eps
-    pref = (p.c ** 4 * p.eps_inf) / (8.0 * np.pi * p.G * lam**2)
+    pref = (p.c ** 2 * p.eps_inf) / (8.0 * np.pi * p.G * lam**2)
 
     # Avoid exact division by zero; the singularity is regularised
     # separately.
