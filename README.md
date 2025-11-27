@@ -178,7 +178,6 @@ Overall status: PASS
 ---
 # Overview 
 This project explores a dark-sector mechanism in which two ultra-weakly coupled 
-U(1)
 U(1) gauge fields generate a stable scalar structure known as a topological dark soliton.
 Such a soliton behaves as a smooth, extended “bubble” in the dark sector that naturally reduces gravitational mass in the central region of a galaxy.
 The resulting profile converts the steep central cusp predicted by standard cold dark matter into the shallow, flat core that is commonly observed in dwarf and spiral galaxies.
@@ -189,13 +188,11 @@ The soliton profile is fully analytic, topologically protected, and can be incor
 What the Model Provides
 
 A screened Helmholtz equation describing the scalar mode 
-ε(r)
 ε(r) sourced by the dark soliton.
 
 Closed-form expressions for the soliton-induced density profile, its asymptotic vacuum density, and the total mass deficit.
 
 A finite-core regularisation that removes the central 
-1/r
 1/r singularity while preserving the correct exterior behaviour.
 
 Analytic rotation curves and cumulative mass profiles derived directly from the soliton density.
