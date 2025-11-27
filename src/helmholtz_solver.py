@@ -78,7 +78,7 @@ class SolitonParameters:
         """
         Asymptotic density ρ∞ implied by the analytic profile.
 
-        ρ∞ = c⁴ ε∞ / (8π G λ²).
+        ρ∞ = c² ε∞ / (8π G λ²).
         """
         lam = self.lambda_eps
         return (self.c ** 2 * self.eps_inf) / (8.0 * np.pi * self.G * lam**2)
