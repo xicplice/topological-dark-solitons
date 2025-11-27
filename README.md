@@ -109,9 +109,9 @@ pip install -e .
 
 ---
 
-# Quick Start
+## Quick Start
 
-## Example 1: Milky Way–like soliton profile
+### Example 1: Milky Way–like soliton profile
 
 From the repository root:
 
@@ -128,7 +128,7 @@ This prints:
 
 ---
 
-## Example 2: Parameter grid scanning
+### Example 2: Parameter grid scanning
 
 Explore how the defect mass scales with $\lambda_\varepsilon\$ and $\varepsilon_\infty\$:
 
@@ -148,7 +148,7 @@ lambda_factor   lambda_eps   eps_inf   defect_mass
 
 ---
 
-# Development & Testing
+## Development & Testing
 
 A basic numerical sanity-check suite is included.
 
@@ -176,7 +176,7 @@ Overall status: PASS
 ```
 
 ---
-# Overview 
+## Overview 
 This project explores a dark-sector mechanism in which two ultra-weakly coupled 
 U(1) gauge fields generate a stable scalar structure known as a topological dark soliton.
 Such a soliton behaves as a smooth, extended “bubble” in the dark sector that naturally reduces gravitational mass in the central region of a galaxy.
@@ -188,12 +188,12 @@ The soliton profile is fully analytic, topologically protected, and can be incor
 What the Model Provides
 
 A screened Helmholtz equation describing the scalar mode 
-ε(r) sourced by the dark soliton.
+**ε(r)** sourced by the dark soliton.
 
 Closed-form expressions for the soliton-induced density profile, its asymptotic vacuum density, and the total mass deficit.
 
 A finite-core regularisation that removes the central 
-1/r singularity while preserving the correct exterior behaviour.
+**1/r** singularity while preserving the correct exterior behaviour.
 
 Analytic rotation curves and cumulative mass profiles derived directly from the soliton density.
 
@@ -213,13 +213,13 @@ Perform sanity and stability checks on the resulting density and velocity profil
 
 Integrate the model into larger simulations or theoretical studies with minimal overhead.
 
-# Summary
+## Summary
 
-Topological dark solitons offer a simple, stable, and physically consistent mechanism for producing cored galactic density profiles within the standard cosmological framework.
-This repository provides the analytic tools, numerical routines, and examples required to explore these structures and apply them in astrophysical contexts.
+#### Topological dark solitons offer a simple, stable, and physically consistent mechanism for producing cored galactic density profiles within the standard cosmological framework.
+#### This repository provides the analytic tools, numerical routines, and examples required to explore these structures and apply them in astrophysical contexts.
 ---
 
-# Citation
+## Citation
 
 A `CITATION.cff` file is provided.  
 GitHub natively supports this; citation metadata is exported automatically.
@@ -228,7 +228,7 @@ If you use this work, please cite it using the provided citation file.
 
 ---
 
-# License
+## License
 
 - **Code:** Apache-2.0  
 - **Paper:** CC-BY-4.0  
