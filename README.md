@@ -12,7 +12,6 @@ by **Xicplice**.
 
 ---
 
-## Overview
 
 We study a dark-sector model with two ultra-weakly coupled U(1) gauge fields linked by a mutual Chern–Simons term.  
 On a topologically wound background this interaction generates a scalar mode $\varepsilon(\mathbf{x})\$ obeying a screened Helmholtz equation:
@@ -177,82 +176,50 @@ Overall status: PASS
 ```
 
 ---
-# What Is This Project About? (Simple Explanation)
+# Overview 
+This project explores a dark-sector mechanism in which two ultra-weakly coupled 
+U(1)
+U(1) gauge fields generate a stable scalar structure known as a topological dark soliton.
+Such a soliton behaves as a smooth, extended “bubble” in the dark sector that naturally reduces gravitational mass in the central region of a galaxy.
+The resulting profile converts the steep central cusp predicted by standard cold dark matter into the shallow, flat core that is commonly observed in dwarf and spiral galaxies.
 
-Galaxies in our universe don’t rotate the way normal physics predicts — especially near their centers.
-Astronomers see flat, low-density “cores”, but most computer models predict sharp, dense “cusps.”
-This disagreement is known as the core–cusp problem, and it’s one of the biggest puzzles in astrophysics.
+This approach provides an analytically controlled and numerically stable explanation for the long-standing core–cusp problem without modifying large-scale cosmology or invoking strong baryonic feedback.
+The soliton profile is fully analytic, topologically protected, and can be incorporated directly into galactic models and simulations.
 
-This project explores a new idea:
+What the Model Provides
 
-# Galaxies may contain large, smooth dark-sector structures called
-Topological Dark Solitons.
+A screened Helmholtz equation describing the scalar mode 
+ε(r)
+ε(r) sourced by the dark soliton.
 
-These solitons act like a stable “bubble” in the dark matter field that naturally hollows out the center of a galaxy.
-Instead of adding extra matter, the soliton gently removes a small amount of gravitational mass near the galactic center, creating the kind of flat density core astronomers actually observe.
+Closed-form expressions for the soliton-induced density profile, its asymptotic vacuum density, and the total mass deficit.
 
-# Why Is This Interesting?
-✔ Provides a natural explanation for galaxy cores
+A finite-core regularisation that removes the central 
+1/r
+1/r singularity while preserving the correct exterior behaviour.
 
-No explosions, no exotic modifications of gravity, no fine-tuning — just a smooth, stable dark-sector structure.
+Analytic rotation curves and cumulative mass profiles derived directly from the soliton density.
 
-✔ Works with standard ΛCDM cosmology
+A consistent and stable framework suitable for astrophysical modelling, parameter scans, and numerical exploration.
 
-It doesn’t break large-scale physics or affect how the universe evolves.
+Capabilities of This Repository
 
-✔ Fully analytic and stable
+Compute the soliton’s scalar field, density profile, and defect mass.
 
-The model provides exact mathematical expressions, so you don’t need huge simulations to test it.
+Generate cored dark-matter halo profiles that smoothly replace the central NFW cusp.
 
-✔ Predicts realistic rotation curves
+Produce rotation curves and mass-distribution plots for comparison with observational data.
 
-The soliton softens the inner gravitational pull, matching what telescopes see.
+Run parameter scans over the screening length and soliton amplitude.
 
-✔ Easy to plug into simulations
+Perform sanity and stability checks on the resulting density and velocity profiles.
 
-The code lets you add soliton cores to dark-matter halos in only a few lines.
+Integrate the model into larger simulations or theoretical studies with minimal overhead.
 
-# What This Repository Contains
+Summary
 
-This repo provides:
-
-A simple analytic model of the soliton
-
-Tools to compute:
-
-the soliton’s density profile
-
-mass deficit
-
-rotation curves
-
-cumulative mass profiles
-
-A finite-core regularization so the profile stays physical
-
-Ready-to-run examples:
-
-Milky Way–like profiles
-
-parameter scans
-
-stability tests
-
-All formulas implemented in clean, well-documented Python code
-
-You can use this project to:
-
-Explore how solitons change galactic centers
-
-Generate realistic cored dark-matter halos
-
-Visualize density, mass, and velocity curves
-
-Integrate into your own astrophysical simulations or research projects
-
-# In One Sentence
-
-This project shows how a stable dark-sector soliton can smooth out the centers of galaxies — solving the core–cusp problem in a simple, elegant, and physically consistent way.
+Topological dark solitons offer a simple, stable, and physically consistent mechanism for producing cored galactic density profiles within the standard cosmological framework.
+This repository provides the analytic tools, numerical routines, and examples required to explore these structures and apply them in astrophysical contexts.
 ---
 
 # Citation
