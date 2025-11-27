@@ -213,7 +213,7 @@ Perform sanity and stability checks on the resulting density and velocity profil
 
 Integrate the model into larger simulations or theoretical studies with minimal overhead.
 
-Summary
+# Summary
 
 Topological dark solitons offer a simple, stable, and physically consistent mechanism for producing cored galactic density profiles within the standard cosmological framework.
 This repository provides the analytic tools, numerical routines, and examples required to explore these structures and apply them in astrophysical contexts.
