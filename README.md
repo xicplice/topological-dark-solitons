@@ -62,6 +62,16 @@ $\sim 10^{11} M_\odot$ from the inner halo—naturally converting an NFW cusp in
 
 ---
 
+Topological Dark Soliton – Core–Cusp Plot
+<table>
+<tr>
+<td><img src="plots/TSCF_2.0.png" width="350"></td>
+<td><img src="plots/TSCF_5.0.png" width="350"></td>
+</tr>
+</table>
+
+---
+
 ## Repository Contents
 
 - `paper.tex` — main LaTeX source of the paper  
